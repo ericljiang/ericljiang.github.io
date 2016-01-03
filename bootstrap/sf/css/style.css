@@ -1,0 +1,133 @@
+body {
+  padding-top: 50px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.navbar-brand {
+  padding: 3px;
+}
+.navbar-default {
+  background-color: #003550;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media (max-width: 1200px) {
+  .navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #2BE;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: none;
+}
+#search {
+  width: 120px;
+}
+.carousel {
+  border-bottom: solid;
+  border-color: #1AF;
+  border-width: thick;
+}
+.carousel img {
+  min-height: 300px;
+}
+.carousel-icon img {
+  min-height: inherit;
+}
+@media (max-width: 768px) {
+  .carousel-icon {
+    display: none;
+  }
+}
+.carousel-caption a {
+  color: #FFF;
+}
+.content {
+  padding-top: 30px;
+}
+.content .lead {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.content h1 {
+  font-size: 18px;
+}
+.content h2 {
+  font-size: 14px;
+  margin: 0;
+}
+.content p {
+  font-size: 12px;
+}
+.services img {
+  float: left;
+  padding: 5px 5px 0 0;
+}
+.bulletin {
+  background-color: #BBEAFF;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.services, .bulletin h2, .bulletin p {
+  color: #48D;
+}
+.footer {
+  background-color: #EEEEEE;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 11px;
+}
+.links {
+  margin-bottom: 50px;
+}
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
